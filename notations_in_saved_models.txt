@@ -1,0 +1,9 @@
+in saved model:
+
+4RR:
+0-> UDP-Lag 
+1-> UDP
+
+4LL:
+0 -> SSDP
+1 -> MSSQL
