@@ -7,3 +7,7 @@ in saved model:
 4LL:
 0 -> SSDP
 1 -> MSSQL
+
+2: 
+0 -> reflection
+1 -> exploitation
