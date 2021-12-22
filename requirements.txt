@@ -1,0 +1,9 @@
+# pip install -r requirements.txt
+
+# base ----------------------------------------
+numpy>=1.18.5
+tensorflow==2.3
+pandas==1.1.5
+scikit-learn==1.0.1
+keras==2.7
+Pillow

@@ -242,6 +242,7 @@ def final_predict(X):
             level4_preds.append('UDP-Lag')
             y_pred.append(11)         #udplag
 
+    print(level1_preds[i] + " ---> " + level2_preds[i] + " ---> " + level3_preds[i] + " ----> " + level4_preds[i])
   y_pred_arr = np.array(y_pred)
   return y_pred_arr, level1_preds, level2_preds, level3_preds, level4_preds
 
@@ -250,8 +251,5 @@ path = input("Provide the path of input csv file: ")
 data = pd.read_csv(path)
 
 y_pred, level1_preds, level2_preds, level3_preds, level4_preds = final_predict(data)
-
-print(level1_preds + " ---> " + level2_preds + " ---> " + level3_preds + " ----> " + level4_preds)
-
 
 
